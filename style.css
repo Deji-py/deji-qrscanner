@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 100%, 50%);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Grayish-blue);
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Grayish-blue);
+}
+p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: var(--Grayish-blue);
+  font-family: "Outfit", sans-serif;
+}
+
+.cardFooter {
+  text-align: center;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.card {
+  width: fit-content;
+  box-shadow: inset 2px 2px 20px rgba(54, 54, 54, 0.3),
+    2px 2px 8px rgba(54, 54, 54, 0.5);
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--White);
+}
+
+.cardHead {
+  width: 40vh;
+  height: 40vh;
+}
+
+.cardHead img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: var(--Dark-blue);
+}
